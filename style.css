@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+}
+
+.Happy__Birthday::before {
+    content: "Happy Birthday  Krishna🎉";
+    font-family: Arial, sans-serif;
+    color: #c2185b;
+    font-size: 3.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(255,255,255,0.7);
+}
